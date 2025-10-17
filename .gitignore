@@ -180,4 +180,6 @@ data/AUDIO
 data/DATASET-balanced.csv
 data/preprocessed.csv
 
+.gradio
+
 *-jenkins-key.json
