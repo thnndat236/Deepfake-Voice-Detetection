@@ -176,4 +176,8 @@ terraform.rc
 
 **/.terraform.lock.hcl
 
-data
+data/AUDIO
+data/DATASET-balanced.csv
+data/preprocessed.csv
+
+*-jenkins-key.json

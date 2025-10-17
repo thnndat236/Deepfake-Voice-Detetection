@@ -1,0 +1,33 @@
+[project]
+name = "deepfakevoice-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ai-edge-litert>=2.0.2",
+    "fastapi[standard]>=0.119.0",
+    "gradio>=5.49.1",
+    "imbalanced-learn>=0.14.0",
+    "ipykernel>=6.30.1",
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.2.6",
+    "opentelemetry-api>=1.37.0",
+    "opentelemetry-exporter-jaeger>=1.11.1",
+    "opentelemetry-exporter-otlp-proto-grpc>=1.37.0",
+    "opentelemetry-exporter-prometheus>=0.58b0",
+    "opentelemetry-instrumentation-fastapi>=0.58b0",
+    "opentelemetry-instrumentation-requests>=0.58b0",
+    "opentelemetry-sdk>=1.37.0",
+    "pandas>=2.3.3",
+    "prometheus-fastapi-instrumentator>=7.1.0",
+    "pydantic-settings>=2.11.0",
+    "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
+    "pytest-cov>=7.0.0",
+    "resampy>=0.4.3",
+    "scikit-learn>=1.7.2",
+    "tensorflow>=2.20.0",
+    "tqdm>=4.67.1",
+]
